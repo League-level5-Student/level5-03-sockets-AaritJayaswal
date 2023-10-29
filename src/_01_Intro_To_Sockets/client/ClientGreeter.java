@@ -13,9 +13,7 @@ public class ClientGreeter {
       
       //3. Surround steps 4-9 in a try-catch block that catches any IOExceptions.
     
-    	 //4. Create an object of the Socket class. When initializing the object, pass in the ip address and the port number
- 
-         //5. Create a DataOutputStream object. When initializing it, use the Socket object you created in step 4 to call the getOutputStream() method.
+    	 //4. Create an object of the Socket class. When initializing the object, pass in the ip address and the port number//5. Create a DataOutputStream object. When initializing it, use the Socket object you created in step 4 to call the getOutputStream() method.
          
          //6. Use the DataOutputStream object to send a message to the server using the writeUTF(String message) method
          
