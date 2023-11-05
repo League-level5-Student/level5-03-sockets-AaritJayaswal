@@ -1,10 +1,11 @@
-package _01_Intro_To_Sockets.client;
+package _02_Chat_Application;
 
-import java.net.*;
-import java.io.*;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.net.Socket;
 
-public class ClientGreeter {
-
+public class Client {
 	public static void main(String[] args) {
 		// 1. Create a String for the ip address of the server.
 		// If you don't know how to find a computer's ip address, ask about ifconfig on
